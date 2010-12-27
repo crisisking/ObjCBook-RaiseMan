@@ -14,6 +14,7 @@
 		9354389012C9234A0060B360 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9354388E12C9234A0060B360 /* Credits.rtf */; };
 		9354389312C9234A0060B360 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9354389212C9234A0060B360 /* MyDocument.m */; };
 		9354389612C9234A0060B360 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9354389412C9234A0060B360 /* MyDocument.xib */; };
+		935438AB12C928680060B360 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 935438AA12C928680060B360 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		9354389112C9234A0060B360 /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
 		9354389212C9234A0060B360 /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
 		9354389512C9234A0060B360 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		935438A912C928680060B360 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		935438AA12C928680060B360 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,8 @@
 		9354387712C923490060B360 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				935438A912C928680060B360 /* Person.h */,
+				935438AA12C928680060B360 /* Person.m */,
 				9354389112C9234A0060B360 /* MyDocument.h */,
 				9354389212C9234A0060B360 /* MyDocument.m */,
 			);
@@ -162,6 +167,7 @@
 			files = (
 				9354388A12C923490060B360 /* main.m in Sources */,
 				9354389312C9234A0060B360 /* MyDocument.m in Sources */,
+				935438AB12C928680060B360 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
